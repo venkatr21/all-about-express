@@ -1,0 +1,25 @@
+{
+  "name": "expressapp",
+  "version": "1.0.0",
+  "description": "learning express, mini project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/venkatr21/all-about-express.git"
+  },
+  "keywords": [
+    "express.js",
+    "node",
+    "npm",
+    "javascript"
+  ],
+  "author": "venkatr21",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/venkatr21/all-about-express/issues"
+  },
+  "homepage": "https://github.com/venkatr21/all-about-express#readme"
+}
