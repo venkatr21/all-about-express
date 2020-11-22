@@ -23,8 +23,11 @@
   },
   "homepage": "https://github.com/venkatr21/all-about-express#readme",
   "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
     "ejs": "^3.1.5",
     "express": "^4.17.1",
+    "mongoose": "^5.10.15",
     "nodemon": "^2.0.6"
   }
 }

@@ -1,19 +1,7 @@
-<!DOCTYPE html>
-<html>
-
-<head>
-    <style>
-        h1 {
-            background-color: plum;
-        }
-    </style>
-</head>
-
-<body>
-    <h1>
-        Hello there!
-        <%= 'hello world'.toUpperCase() %>
-    </h1>
-</body>
-
-</html>
+<%- include('head') %>
+<% if(value==123){ %>
+<marquee>Venkat</marquee>
+<% }else{ %>
+<marquee>Not Venkat</marquee>
+<% } %>
+<%- include('foot') %>
