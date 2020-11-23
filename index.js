@@ -2,6 +2,7 @@ const express = require("express");
 const mongoose = require("mongoose");
 const cors = require("cors");
 const dotenv = require("dotenv");
+const bodyParser = require("body-parser");
 dotenv.config();
 
 const app = express();
@@ -16,10 +17,12 @@ app.use(cors());
 app.use(express.json());
 app.use(express.static('public'))
 app.use('/static', express.static('public'))
-
+app.use('/user',require('./routes/user'));
+app.use(bodyParser.urlencoded({ extended: false }));
+app.use(bodyParser.json());
 mongoose.connect(uri,{
     useNewUrlParser: true,
-    useCreateIndex: true
+    useUnifiedTopology: true
 });
 const conn = mongoose.connection;
 conn.once('open',()=>{
@@ -30,7 +33,4 @@ app.get('/',(req,res)=>{
 })
 app.listen(5000,()=>{
     console.log("App running on port 5000")
-})
-app.get('*',(req,res)=>{
-    res.send("Handle all the routes")
 })
