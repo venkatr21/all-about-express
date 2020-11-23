@@ -1,5 +1,5 @@
 {
-  "name": "expressapp",
+  "name": "ghub-profile-api",
   "version": "1.0.0",
   "description": "learning express, mini project",
   "main": "index.js",
