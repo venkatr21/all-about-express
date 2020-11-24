@@ -26,7 +26,7 @@ const conn = mongoose.connection;
 conn.once('open',()=>{
     console.log("Connected to mongoDB!");
 })
-app.get('*',(req,res)=>{
+app.get('/',(req,res)=>{
     res.send("GET / Express powered github profile counter app")
 })
 app.listen(5000,()=>{
