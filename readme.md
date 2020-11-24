@@ -19,7 +19,7 @@
 
 ## Introduction
 
-Github profile api is and express powered API backend service, which maintains track of user profile view count and responds a JSON object which can be rendered to their profile. Provides a seamless workflow, to maintain user records. Created by <a href="https://github.com/venkatr21/">Me</a> as a part of learning Express.js
+Github profile api is an express.js powered API backend service, which maintains track of user profile view count and responds a JSON object which can be rendered to their profile. Provides a seamless workflow, to maintain user records. Created by <a href="https://github.com/venkatr21/">Me</a> as a part of learning Express.js
 
 **Features**
 
